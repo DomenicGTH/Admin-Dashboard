@@ -1,0 +1,37 @@
+html,body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#sidebar {
+    background-color: aliceblue;
+    border-style: solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-around;
+}
+
+#header {
+     background-color: azure;
+     width: 100%;
+}
+
+#assignments {
+    border-style: dotted;
+    padding: 5px;
+}
+
+#annoucements {
+    background-color: wheat;
+}
+
+#trending {
+    background-color: thistle;
+}
+
