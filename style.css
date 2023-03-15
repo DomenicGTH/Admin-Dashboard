@@ -19,8 +19,8 @@ html,body {
 
 #header {
     background-color: azure;
-    width: 100%;
-    padding: 20px;
+    width: 1235px;
+    padding: 20px
 }
 
 #assignments {
@@ -59,8 +59,15 @@ html,body {
 .rightcont {
     display: flex;
     flex-flow: column;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: lavender;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.announcements {
+    background-color: beige;
 }
 /* .project { */
     /* display: grid;
