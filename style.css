@@ -25,11 +25,13 @@ html,body {
 
 #assignments {
     border-style: dotted;
-    padding: 5px;
+    padding: 30px;
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(2, 150px);
-    height: min-content;
+    align-items: center;
+    grid-template-columns: repeat(2, 386px);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 616px;
 }
 
 #annoucements {
@@ -41,8 +43,8 @@ html,body {
 }
 
 .project {
-    width: 250px;
-    height: 300px;
+    border-style: double;
+    padding: 10px;
 }
 
 .maincont {
@@ -54,6 +56,12 @@ html,body {
     display: flex;
 }
 
+.rightcont {
+    display: flex;
+    flex-flow: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 /* .project { */
     /* display: grid;
     grid-template-columns: repeat(3, 200px);
