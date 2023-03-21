@@ -13,10 +13,9 @@ html,body {
 #sidebar {
     background-color: aliceblue;
     border-style: solid;
-    padding: 10px 50px;
+    padding: 10px 35px;
     display: flex;
     flex-direction: column;
-    height: 100%;
     justify-content: space-around;
 }
 
@@ -32,10 +31,9 @@ html,body {
     padding: 5px 30px 30px;
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(2, 386px);
+    grid-template-columns: repeat(2, 2fr);
     grid-template-rows: 75px 1fr 1fr;
     gap: 10px;
-    height: 100%;
     background-color: aliceblue;
 }
 
@@ -76,12 +74,13 @@ html,body {
 
 .rightcont {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     padding: 5px 30px 30px;
     background-color: aliceblue;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-    height: 100%;
 }
 
 .announcements {
@@ -104,9 +103,9 @@ h3 {
     display: flex;
     flex-flow: column;
     border-top: 1px solid black;
-    border-right: 5px solid black;
     padding: 0px 20px;
     align-items: self-start;
+    width: 250px;
 }
 
 .announce {
@@ -155,6 +154,11 @@ h5 {
     display: flex;
     flex-flow: column;
     padding-left: 20px;
-    gap: 5px;
+    gap: 15px;
     align-items: flex-start;
+}
+
+#trending {
+    background-color: white;
+    border: 1px solid;
 }
