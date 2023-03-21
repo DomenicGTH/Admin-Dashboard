@@ -5,18 +5,46 @@ html,body {
 .iconProject {
     width: 25px;
 }
+
+.TitleIcon {
+    width: 75px;
+}
+
+.titlePack {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.Pack {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    margin: 20px;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+button {
+    background:none;
+    border: none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
 #sidebar {
     background-color: aliceblue;
     border-style: solid;
-    padding: 10px 35px;
+    padding: 10px 30px 10px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.mainInfo {
+    padding-bottom: 50px;
 }
 
 #header {
