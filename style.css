@@ -2,6 +2,9 @@ html,body {
     margin: 0;
 }
 
+.iconProject {
+    width: 25px;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -34,6 +37,12 @@ html,body {
     height: 616px;
 }
 
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 5px;
+}
 #annoucements {
     background-color: wheat;
 }
@@ -43,8 +52,15 @@ html,body {
 }
 
 .project {
-    border-style: double;
+    border-style: outset;
+    border-radius: 12px;
+    border: 10px solid rgb(233 233 233 / 50%);
+    border-width: 5px;
     padding: 10px;
+    background: linear-gradient(to right,
+     #fff429 0%,#fff429 1%,#f9f4f4 10%,
+     #fff1f1 100%);
+     
 }
 
 .maincont {
